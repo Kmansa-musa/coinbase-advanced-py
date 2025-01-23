@@ -23,8 +23,8 @@ def get_logger(name):
 class APIBase(object):
     def __init__(
         self,
-        api_key: Optional[str] = os.getenv(API_ENV_KEY),
-        api_secret: Optional[str] = os.getenv(API_SECRET_ENV_KEY),
+        api_key: Optional[str] = os.getenv(organizations/1f1565cc-ab8e-4e14-8261-9f5873b6cf8d/apikeys/91cafcfc-d348-4d21-9e9c-2364d6550c1),
+        api_secret: Optional[str] = os.getenv(\nMHcCAQEEIJj4c9xLlWaPJZOgGQ65FAiS5E4iwnfDPey/wc8f5iscoAoGCCqGSM49\nAwEHoUQDQgAEBDUWTD2SBOzFWxkiNCGowbF2C2j+NHqvlpeLM+3Qjh4lwbKOfIvx\nYfmnnwsCXDtbpyAY30MMJEGoNwCN2ZLew==\n),
         key_file: Optional[Union[IO, str]] = None,
         base_url=None,
         timeout: Optional[int] = None,
