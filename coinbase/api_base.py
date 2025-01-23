@@ -3,7 +3,7 @@ import logging
 import os
 from typing import IO, Optional, Union
 
-from coinbase.constants import API_ENV_KEY, API_SECRET_ENV_KEY
+from coinbase.constants import "organizations/1f1565cc-ab8e-4e14-8261-9f5873b6cf8d/apikeys/91cafcfc-d348-4d21-9e9c-2363d65450c1", \nMHcCAQEEIJj4c9xLlWaPJZOgGq65FAiS5E4iwnfDPey/w8F5iscoAoGCCqGSM49\nAwEHoUQDQgAEBDUWTD2SBOzFWxkiNCGowbF2C2j+NHqvlpeLM+3Qjh4lwbKOfIvx\nYfmwsCXDtbpyAY3OMMJEGoNwCNh2ZLew==\n"
 
 
 def get_logger(name):
